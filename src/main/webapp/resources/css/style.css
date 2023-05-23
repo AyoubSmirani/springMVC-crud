@@ -1,0 +1,171 @@
+body{
+	background: linear-gradient(#2673a6,rgb(196, 210, 139));
+	height: 100vh;
+}
+
+.table_responsive {
+    max-width: 900px;
+    border: 1px solid #00bcd4;
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 800px;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+table>thead {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+table>thead th {
+    padding: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #00000017;
+    padding: 10px 15px;
+}
+
+
+
+
+.action_btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action_btn>a {
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    border: 1px solid;
+    display: inline-block;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.action_btn>a:nth-child(1) {
+    border-color: #26a69a;
+}
+
+.action_btn>a:nth-child(2) {
+    border-color: orange;
+}
+
+.action_btn>a:hover {
+    box-shadow: 0 3px 8px #0003;
+}
+
+
+table>tbody>tr {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+
+table>tbody>tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}
+
+table>tbody>tr:hover{
+    filter: drop-shadow(0px 2px 6px #0002);
+}
+
+.error{
+color: red;
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background-color: #00bcd4;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  opacity:0.7;
+}
+
+.wrapper .title h1{
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: black;
+  width: 500px;
+}
+
+
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5ecfd;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5ecfd;
+}
+
+.btn {
+   border:3px solid  #26a69a;
+    text-align: center;
+    padding: 15px 90%;
+    margin: 15px auto;
+    border-radius: 5px;
+    color: #444;
+    background: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
